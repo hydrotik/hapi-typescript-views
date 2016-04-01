@@ -1,0 +1,63 @@
+{
+  "name": "hapi-typescript-views",
+  "description": "A hapi view engine for React components using Typescript.",
+  "homepage": "https://github.com/krambuhl/npm-module-boilerplate",
+  "version": "0.1.0",
+  "keywords": [
+    "hapi",
+    "typescript",
+    "ts",
+    "react",
+    "views",
+    "universal",
+    "isomorphic"
+  ],
+  "contributors": [
+    {
+      "name": "Donovan Adams",
+      "email": "",
+      "github" : "hydrotik"
+    },
+    {
+      "name": "Ozgur Uksal",
+      "email": ""
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hydrotik/hapi-typescript-views/issues"
+  },
+  "homepage": "https://github.com/hydrotik/hapi-typescript-views",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -c -L -I 'Reflect,core,_babelPolyfill,regeneratorRuntime,__core-js_shared__'",
+    "test-cover": "lab -c -r html -o test/artifacts/coverage.html && open test/artifacts/coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hydrotik/hapi-typescript-views.git"
+  },
+  "dependencies": {
+    "hoek": "^3.0.4",
+    "code": "2.x.x",
+    "hapi": "13.x.x",
+    "inert": "3.x.x",
+    "vision": "4.x.x",
+    "webpack": "1.x.x",
+    "typescript" : "1.8.x",
+    "typescript-simple": "^3.0.2"
+    
+  },
+  "peerDependencies": {
+    "react": "0.14.x",
+    "react-dom": "0.14.x"
+    
+  },
+  "devDependencies": {
+    "ansi-to-html": "^0.3.0",
+    "colors": "^1.1.2",
+    "lab": "9.x.x",
+    "striptags": "^2.1.1",
+    "uglify-js": "^2.6.1"
+  }
+}
