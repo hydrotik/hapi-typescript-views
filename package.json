@@ -42,6 +42,7 @@
     "code": "2.x.x",
     "hapi": "13.x.x",
     "inert": "3.x.x",
+    "joi": "^8.0.5",
     "vision": "4.x.x",
     "webpack": "1.x.x",
     "typescript" : "1.8.x",
