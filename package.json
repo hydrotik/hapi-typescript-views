@@ -51,7 +51,7 @@
     "react": "0.14.x",
     "react-dom": "0.14.x",
     "hapi": "13.x.x",
-    "joi": "8.0.x",
+    "joi": "8.0.x"
   },
   "devDependencies": {
     "ansi-to-html": "^0.3.0",
