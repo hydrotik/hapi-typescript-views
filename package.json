@@ -38,21 +38,20 @@
     "url": "git@github.com:hydrotik/hapi-typescript-views.git"
   },
   "dependencies": {
-    "hoek": "^3.0.4",
-    "code": "2.x.x",
-    "hapi": "13.x.x",
-    "inert": "3.x.x",
-    "joi": "^8.0.5",
-    "vision": "4.x.x",
     "webpack": "1.x.x",
     "typescript" : "1.8.x",
     "typescript-simple": "^3.0.2"
     
   },
   "peerDependencies": {
+    "hoek": "^3.0.4",
+    "code": "2.x.x",
+    "inert": "3.x.x",
+    "vision": "4.x.x",
     "react": "0.14.x",
-    "react-dom": "0.14.x"
-    
+    "react-dom": "0.14.x",
+    "hapi": "13.x.x",
+    "joi": "8.0.x",
   },
   "devDependencies": {
     "ansi-to-html": "^0.3.0",
